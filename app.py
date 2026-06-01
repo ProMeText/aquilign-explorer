@@ -968,6 +968,184 @@ footer {
 .repository-links a:hover {
     text-decoration: underline;
 }
+
+/* Strong mobile fixes */
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body,
+    #root,
+    .gradio-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .gradio-container {
+        margin: 0 !important;
+        padding: 0 12px !important;
+    }
+
+    .contain,
+    .wrap,
+    .main,
+    .app,
+    main {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    #main-banner {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 0 12px 0 !important;
+        overflow: hidden !important;
+    }
+
+    #main-banner img {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 220px !important;
+        object-fit: contain !important;
+        transform: none !important;
+    }
+
+    .tabs {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        margin-top: 0 !important;
+    }
+
+    .about-section,
+    .method-section,
+    .explore-section,
+    .publications-section,
+    .contact-section,
+    .card,
+    .team-card,
+    .reading-view {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 22px 8px !important;
+        overflow-x: hidden !important;
+    }
+
+    .about-section h2,
+    .method-section h2,
+    .explore-section h2,
+    .publications-section h2,
+    .contact-section h2 {
+        font-size: 25px !important;
+        line-height: 1.2 !important;
+    }
+
+    .about-kicker {
+        font-size: 11px !important;
+        letter-spacing: 0.06em !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .about-lead,
+    .about-section p,
+    .method-section p,
+    .explore-section p,
+    .step-text,
+    .feature-text,
+    .publication-meta,
+    .publication-text,
+    .repository-item {
+        font-size: 15px !important;
+        line-height: 1.55 !important;
+        max-width: 100% !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    .about-question {
+        font-size: 18px !important;
+        line-height: 1.45 !important;
+        margin: 26px 0 36px 0 !important;
+        padding-left: 14px !important;
+        max-width: 100% !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .feature-grid,
+    .parallel-view,
+    .contact-grid,
+    .team-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .method-step {
+        display: grid !important;
+        grid-template-columns: 44px minmax(0, 1fr) !important;
+        gap: 12px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .step-title {
+        font-size: 16px !important;
+        line-height: 1.35 !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .step-number {
+        width: 36px !important;
+        height: 36px !important;
+        min-width: 36px !important;
+    }
+
+    .main-witness-card,
+    .witness-card,
+    .publication-item,
+    .repository-item,
+    .corpus-notice,
+    .search-status {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .main-witness-text {
+        font-size: 17px !important;
+        line-height: 1.55 !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .witness-text {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .bibtex-box pre {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: pre-wrap !important;
+        word-break: break-word !important;
+        font-size: 11px !important;
+    }
+
+    .gradio-container table,
+    .gradio-container .dataframe,
+    .gradio-container [data-testid="dataframe"] {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+    }
+}
 """
 
 
