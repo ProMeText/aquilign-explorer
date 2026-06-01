@@ -1,14 +1,3 @@
----
-title: Aquilign Explorer
-emoji: 📜
-colorFrom: gray
-colorTo: red
-sdk: gradio
-sdk_version: 5.23.1
-python_version: 3.11
-app_file: app.py
-pinned: false
----
 
 # Aquilign Explorer
 
