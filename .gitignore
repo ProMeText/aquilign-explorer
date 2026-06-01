@@ -33,3 +33,4 @@ temp/
 # Optional: keep raw/private data out of the public repo
 private_data/
 local_data/
+leftovers/
