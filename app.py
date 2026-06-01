@@ -1146,21 +1146,677 @@ footer {
         overflow-x: auto !important;
     }
 }
+/* Ultra-strong mobile width fix */
+
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box !important;
+    }
+
+    html,
+    body,
+    #root,
+    .gradio-container,
+    .app,
+    .main,
+    .wrap,
+    .contain,
+    main {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        overflow-x: hidden !important;
+    }
+
+    .gradio-container > *,
+    .app > *,
+    .main > *,
+    .wrap > *,
+    .contain > *,
+    main > * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .tabs,
+    [role="tablist"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+    }
+
+    .about-section,
+    .method-section,
+    .explore-section,
+    .publications-section,
+    .contact-section,
+    .team-card,
+    .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .about-section *,
+    .method-section *,
+    .explore-section *,
+    .publications-section *,
+    .contact-section *,
+    .team-card *,
+    .card * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    .method-step {
+        display: grid !important;
+        grid-template-columns: 38px minmax(0, 1fr) !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .step-title,
+    .step-text,
+    .about-lead,
+    .about-question {
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .feature-grid,
+    .parallel-view,
+    .team-grid,
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    #main-banner,
+    #main-banner img {
+        width: 100% !important;
+        max-width: 100% !important;
+        transform: none !important;
+    }
+}
+/* Emergency mobile width reset */
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #root,
+    .gradio-container,
+    .gradio-container > div,
+    .gradio-container .main,
+    .gradio-container .wrap,
+    .gradio-container .contain,
+    .gradio-container .block,
+    .gradio-container .form,
+    .gradio-container .gap,
+    .gradio-container .panel,
+    .gradio-container .tabs,
+    .gradio-container .tabitem,
+    .gradio-container .tab-nav,
+    .gradio-container [class*="container"],
+    .gradio-container [class*="wrap"],
+    .gradio-container [class*="block"],
+    .gradio-container [class*="column"],
+    .gradio-container [class*="row"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+    }
+
+    .gradio-container [role="tablist"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        white-space: nowrap !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .gradio-container [role="tab"] {
+        flex: 0 0 auto !important;
+        max-width: none !important;
+        white-space: nowrap !important;
+    }
+
+    .about-section,
+    .method-section,
+    .explore-section,
+    .publications-section,
+    .contact-section,
+    .team-card,
+    .card {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        padding: 18px 8px !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+
+    .about-section *,
+    .method-section *,
+    .explore-section *,
+    .publications-section *,
+    .contact-section *,
+    .team-card *,
+    .card * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    .method-step {
+        display: grid !important;
+        grid-template-columns: 32px minmax(0, 1fr) !important;
+        gap: 10px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .step-number {
+        width: 30px !important;
+        height: 30px !important;
+        min-width: 30px !important;
+        font-size: 13px !important;
+    }
+
+    .about-lead,
+    .step-text,
+    .step-title,
+    .feature-text,
+    .main-witness-text,
+    .witness-text,
+    .publication-title,
+    .publication-meta,
+    .publication-text,
+    .repository-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .about-lead {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+
+    .step-title {
+        font-size: 15px !important;
+        line-height: 1.3 !important;
+    }
+
+    .step-text {
+        font-size: 14px !important;
+        line-height: 1.45 !important;
+    }
+
+    .about-section h2,
+    .method-section h2,
+    .explore-section h2,
+    .publications-section h2,
+    .contact-section h2 {
+        font-size: 24px !important;
+        line-height: 1.15 !important;
+    }
+
+    .about-kicker {
+        font-size: 10px !important;
+        line-height: 1.4 !important;
+        letter-spacing: 0.04em !important;
+        white-space: normal !important;
+    }
+
+    .feature-grid,
+    .parallel-view,
+    .team-grid,
+    .contact-grid {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    #main-banner {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: 0 0 10px 0 !important;
+        overflow: hidden !important;
+    }
+
+    #main-banner img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: 200px !important;
+        object-fit: contain !important;
+        transform: none !important;
+    }
+
+    iframe,
+    table,
+    pre,
+    code,
+    .dataframe,
+    [data-testid="dataframe"] {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: pre-wrap !important;
+    }
+}
+/* Professional mobile tabs: scroll tabs, not the whole page */
+
+@media screen and (max-width: 768px) {
+
+    .gradio-container [role="tablist"] {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        max-width: 100vw !important;
+        width: 100% !important;
+        white-space: nowrap !important;
+        scrollbar-width: thin !important;
+    }
+
+    .gradio-container [role="tab"] {
+        flex: 0 0 auto !important;
+        white-space: nowrap !important;
+        max-width: none !important;
+    }
+
+    .gradio-container [role="tabpanel"] {
+        width: 100% !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+
+    .gradio-container {
+        overflow-x: hidden !important;
+    }
+}
+/* Final responsive fix */
+
+@media screen and (max-width: 768px) {
+    html,
+    body,
+    gradio-app,
+    #root,
+    .gradio-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        overflow-x: hidden !important;
+    }
+
+    .gradio-container * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .gradio-container .row,
+    .gradio-container .column,
+    .gradio-container [class*="row"],
+    .gradio-container [class*="column"] {
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .gradio-container [data-testid="block-label"],
+    .gradio-container label,
+    .gradio-container input,
+    .gradio-container textarea,
+    .gradio-container select,
+    .gradio-container button {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        white-space: normal !important;
+    }
+
+    .about-section,
+    .method-section,
+    .explore-section,
+    .publications-section,
+    .contact-section,
+    .team-card,
+    .card,
+    .reading-view,
+    .main-witness-card,
+    .witness-card,
+    .publication-item,
+    .repository-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        overflow-x: hidden !important;
+    }
+
+    .feature-grid,
+    .parallel-view,
+    .team-grid,
+    .contact-grid {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .method-step {
+        grid-template-columns: 32px minmax(0, 1fr) !important;
+    }
+
+    .about-section *,
+    .method-section *,
+    .explore-section *,
+    .publications-section *,
+    .contact-section *,
+    .team-card *,
+    .card *,
+    .reading-view * {
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    [role="tablist"] {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+
+    [role="tab"] {
+        flex: 0 0 auto !important;
+        white-space: nowrap !important;
+    }
+
+    #main-banner img {
+        transform: none !important;
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}/* Android / tablet responsive fix */
+
+@media screen and (max-width: 1200px) {
+
+    html,
+    body,
+    #root,
+    .gradio-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow-x: hidden !important;
+    }
+
+    .gradio-container {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .gradio-container *,
+    .gradio-container *::before,
+    .gradio-container *::after {
+        box-sizing: border-box !important;
+        min-width: 0 !important;
+    }
+
+    #main-banner {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: 0 0 14px 0 !important;
+        overflow: hidden !important;
+    }
+
+    #main-banner img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: 220px !important;
+        object-fit: contain !important;
+        transform: none !important;
+        display: block !important;
+    }
+
+    .tabs,
+    [role="tablist"] {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        white-space: nowrap !important;
+    }
+
+    [role="tab"] {
+        flex: 0 0 auto !important;
+        white-space: nowrap !important;
+    }
+
+    .about-section,
+    .method-section,
+    .explore-section,
+    .publications-section,
+    .contact-section,
+    .team-card,
+    .card,
+    .reading-view,
+    .main-witness-card,
+    .witness-card,
+    .publication-item,
+    .repository-item,
+    .corpus-notice,
+    .search-status {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        overflow-x: hidden !important;
+    }
+
+    .about-section *,
+    .method-section *,
+    .explore-section *,
+    .publications-section *,
+    .contact-section *,
+    .team-card *,
+    .card *,
+    .reading-view * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    .feature-grid,
+    .parallel-view,
+    .team-grid,
+    .contact-grid {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 16px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .method-step {
+        display: grid !important;
+        grid-template-columns: 36px minmax(0, 1fr) !important;
+        gap: 12px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .step-number {
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px !important;
+        font-size: 14px !important;
+    }
+
+    .about-section h2,
+    .method-section h2,
+    .explore-section h2,
+    .publications-section h2,
+    .contact-section h2 {
+        font-size: 26px !important;
+        line-height: 1.2 !important;
+    }
+
+    .about-kicker {
+        font-size: 11px !important;
+        letter-spacing: 0.05em !important;
+        white-space: normal !important;
+    }
+
+    .about-lead,
+    .about-question,
+    .step-title,
+    .step-text,
+    .feature-text,
+    .main-witness-text,
+    .witness-text,
+    .publication-title,
+    .publication-meta,
+    .publication-text,
+    .repository-item {
+        max-width: 100% !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
+    }
+
+    .about-lead {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+    .step-title {
+        font-size: 16px !important;
+        line-height: 1.3 !important;
+    }
+
+    .step-text {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+
+    .main-witness-text {
+        font-size: 17px !important;
+        line-height: 1.55 !important;
+    }
+
+    .witness-text {
+        font-size: 16px !important;
+        line-height: 1.5 !important;
+    }
+
+    .bibtex-box pre,
+    table,
+    .dataframe,
+    [data-testid="dataframe"] {
+        max-width: 100% !important;
+        overflow-x: auto !important;
+        white-space: pre-wrap !important;
+    }
+}
+.mobile-warning {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .mobile-warning {
+        display: block !important;
+        background: #fbf8f3;
+        border-left: 3px solid rgba(138, 42, 34, 0.35);
+        color: #5a2d27;
+        padding: 14px 16px;
+        margin: 14px 12px 20px 12px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
 """
 
+mobile_head = """
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+"""
 
-
+#with gr.Blocks(
+ #   title="Aquilign Demo",
+  #  theme=gr.themes.Soft(),
+   # css=custom_css,
+#) as demo:
 with gr.Blocks(
     title="Aquilign Demo",
     theme=gr.themes.Soft(),
     css=custom_css,
+    head=mobile_head,
 ) as demo:
-
     gr.Image(
         value="quilign.png",
         show_label=False,
         container=False,
         elem_id="main-banner",
+    )
+
+    gr.HTML(
+    """
+        <div class="mobile-warning">
+        Aquilign Explorer is currently optimized for laptop and desktop screens.
+        The mobile layout is experimental and may not display all alignment views correctly.
+        </div>
+    """
     )
 
     with gr.Tabs():
