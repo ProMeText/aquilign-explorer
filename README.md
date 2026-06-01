@@ -1,3 +1,5 @@
+[![Hugging Face Space](https://img.shields.io/badge/Live%20demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/ProMeText/aquilign-explorer)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Aquilign Explorer
 
@@ -71,8 +73,6 @@ Ing, L., Gille Levenson, M., & Macedo, C. (2025). *Multilingual Segmentation Dat
 
 Ing, L., Gille Levenson, M., & Macedo, C. (2026). Phrase-level segmentation on medieval corpora for aligning multilingual texts. In *Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)*. https://doi.org/10.63317/32HUZUUOKPFR
 
-
-## License
 
 ## License
 
