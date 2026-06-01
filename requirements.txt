@@ -1,2 +1,5 @@
-gradio
-pandas
+gradio==5.23.1
+pandas==2.2.3
+
+
+

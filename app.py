@@ -1,3 +1,6 @@
+import os
+os.environ["GRADIO_SSR_MODE"] = "False"
+
 import html
 import urllib.parse
 from pathlib import Path
@@ -1657,4 +1660,10 @@ historical linguistics, and computational humanities.
         )
 
 
-demo.launch(allowed_paths=["team", "sample_data"])
+#demo.launch(allowed_paths=["team", "sample_data"])
+if __name__ == "__main__":
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=7860,
+        allowed_paths=["team", "sample_data"],
+    )

@@ -1,3 +1,15 @@
+---
+title: Aquilign Explorer
+emoji: 📜
+colorFrom: gray
+colorTo: red
+sdk: gradio
+sdk_version: 5.23.1
+python_version: 3.11
+app_file: app.py
+pinned: false
+---
+
 # Aquilign Explorer
 
 Interactive Gradio explorer for reviewed and raw Aquilign alignments of multilingual medieval textual traditions.
@@ -46,4 +58,5 @@ cd aquilign-explorer
 python app.py
 ```
 - Then open the local Gradio URL in youy browser
+
 
