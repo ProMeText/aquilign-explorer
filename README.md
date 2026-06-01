@@ -74,8 +74,8 @@ Ing, L., Gille Levenson, M., & Macedo, C. (2026). Phrase-level segmentation on m
 
 ## License
 
-The source code of this interface is released under the MIT License.
+## License
 
-The demo datasets, alignment tables, corpus excerpts, and associated textual data are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). See `DATA_LICENSE.md`.
+This repository, including the demo interface, alignment tables, corpus excerpts, and associated documentation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-Reuse of the datasets or corpus-derived materials requires appropriate citation of the relevant publications and resources.
+Reuse requires appropriate citation of the relevant publications and resources listed in the Citation section.
