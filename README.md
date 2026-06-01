@@ -56,7 +56,12 @@ If you use Aquilign Explorer, the demo alignments, or the associated datasets, p
 
 ### Aquilign / Lancelot alignments
 
+
 Gille Levenson, M., Ing, L., & Camps, J.-B. (2024). Textual Transmission without Borders: Multiple Multilingual Alignment and Stemmatology of the *Lancelot en prose* (Medieval French, Castilian, Italian). In W. Haverals, M. Koolen, & L. Thompson (Eds.), *Proceedings of the Computational Humanities Research Conference 2024* (Vol. 3834, pp. 65–92). CEUR.
+
+- CEUR entry: https://ceur-ws.org/Vol-3834/#paper104
+- PDF: https://ceur-ws.org/Vol-3834/paper104.pdf
+
 
 ### Segmentation dataset
 
