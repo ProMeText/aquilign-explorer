@@ -47,7 +47,7 @@ cd aquilign-explorer
 ```bash
 python app.py
 ```
-- Then open the local Gradio URL in youy browser
+- Then open the local Gradio URL in your browser
 
 
 ## Citation
