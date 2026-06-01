@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Aquilign Explorer"
+message: "If you use Aquilign Explorer, the demo alignments, or the associated resources, please cite the relevant publications and datasets listed below."
+type: software
+
+authors:
+  - family-names: "Macedo"
+    given-names: "Carolina"
+  - family-names: "Gille Levenson"
+    given-names: "Matthias"
+  - family-names: "Ing"
+    given-names: "Lucence"
+
+repository-code: "https://github.com/ProMeText/aquilign-explorer"
+url: "https://huggingface.co/spaces/ProMeText/aquilign-explorer"
+
+abstract: "A Gradio interface for exploring reviewed and raw Aquilign alignments of multilingual medieval textual traditions."
+
+keywords:
+  - digital humanities
+  - medieval studies
+  - philology
+  - multilingual alignment
+  - historical NLP
+  - textual transmission
+
+license: MIT
