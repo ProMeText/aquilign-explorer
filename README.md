@@ -5,6 +5,7 @@ Interactive Gradio explorer for reviewed and raw Aquilign alignments of multilin
 
 Aquilign Explorer provides a public interface for browsing alignment outputs produced with [Aquilign](https://github.com/ProMeText/Aquilign). It is designed as a lightweight demo and reading interface for medievalists, philologists, computational humanities researchers, and collaborators who want to inspect multilingual alignments without installing the full Aquilign pipeline.
 
+[Open the live demo on Hugging Face Spaces](https://huggingface.co/spaces/ProMeText/aquilign-explorer)
 ## Overview
 
 This interface allows users to explore alignment tables produced with Aquilign. It currently supports demo corpora from:
@@ -37,7 +38,7 @@ The first witness in each alignment table is treated as the **main witness**. Ot
 - Clone the repository
 
 ```bash
-git clone git@github.com:carolisteia/aquilign-explorer.git
+git clone git@github.com:ProMeText/aquilign-explorer.git
 cd aquilign-explorer
 ```
 
