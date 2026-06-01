@@ -50,3 +50,27 @@ python app.py
 - Then open the local Gradio URL in youy browser
 
 
+## Citation
+
+If you use Aquilign Explorer, the demo alignments, or the associated datasets, please cite the relevant publications and resources.
+
+### Aquilign / Lancelot alignments
+
+Gille Levenson, M., Ing, L., & Camps, J.-B. (2024). Textual Transmission without Borders: Multiple Multilingual Alignment and Stemmatology of the *Lancelot en prose* (Medieval French, Castilian, Italian). In W. Haverals, M. Koolen, & L. Thompson (Eds.), *Proceedings of the Computational Humanities Research Conference 2024* (Vol. 3834, pp. 65–92). CEUR.
+
+### Segmentation dataset
+
+Ing, L., Gille Levenson, M., & Macedo, C. (2025). *Multilingual Segmentation Dataset for Historical Prose (13th–16th c.)* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.16992629
+
+### Segmentation workflow
+
+Ing, L., Gille Levenson, M., & Macedo, C. (2026). Phrase-level segmentation on medieval corpora for aligning multilingual texts. In *Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)*. https://doi.org/10.63317/32HUZUUOKPFR
+
+
+## License
+
+The source code of this interface is released under the MIT License.
+
+The demo datasets, alignment tables, corpus excerpts, and associated textual data are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). See `DATA_LICENSE.md`.
+
+Reuse of the datasets or corpus-derived materials requires appropriate citation of the relevant publications and resources.
